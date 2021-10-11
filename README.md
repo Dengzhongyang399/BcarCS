@@ -11,10 +11,14 @@ Semantic Representation Learning for Code Search with Boosted Co-Attention Mecha
 ## Usage
 
    ### DataSets
-  You can find the datasets we used at https://pan.baidu.com/s/1unTcrWqULSKT0f-Ll7_Obw The extraction code is ‘wfjp’
+  You can find the datasets we used at https://pan.baidu.com/s/1unTcrWqULSKT0f-Ll7_Obw . The extraction code is ‘wfjp’
+  
+  
   And the `/data` folder need be included by `/keras`. 
   
-  
+   ### Trained model of BcarCS
+   You can find the trained model of BcarCS at https://pan.baidu.com/s/1unTcrWqULSKT0f-Ll7_Obw . The extraction code is ‘wfjp’
+   
    ### Configuration
    
    Edit hyper-parameters and settings in `config.py`
