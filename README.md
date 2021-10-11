@@ -1,6 +1,11 @@
 # BcarCS
 Semantic Representation Learning for Code Search with Boosted Co-Attention Mechanism
 
+`BcarCS` is our model proposed in this paper.
+
+`DeepCS` `UNIF` `TabCS` are replication packages of baselines.
+
+
 ## Dependency
 > Tested in Ubuntu 16.04
 * Python 2.7-3.6
