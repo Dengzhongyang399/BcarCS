@@ -21,6 +21,10 @@ Semantic Representation Learning for Code Search with Boosted Co-Attention Mecha
   
   And the `/data` folder need be included by `/keras`. 
   
+  
+   ### Get statement-level structure of code
+   You can get statement-level structure of code by the source codes in `getStaTree`.
+   
    ### Trained model of BcarCS
    You can find the trained model of BcarCS at https://pan.baidu.com/s/1unTcrWqULSKT0f-Ll7_Obw . The extraction code is ‘wfjp’
    
