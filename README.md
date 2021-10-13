@@ -16,7 +16,9 @@ Semantic Representation Learning for Code Search with Boosted Co-Attention Mecha
 ## Usage
 
    ### DataSets
-  The datasets used in out paper will be published later.
+  The processed datasets used in out paper will be published later.
+  
+  You can also find the original datasets at https://github.com/xing-hu/EMSE-DeepCom
   
   
   And the `/data` folder need be included by `/keras`. 
@@ -26,7 +28,7 @@ Semantic Representation Learning for Code Search with Boosted Co-Attention Mecha
    You can get statement-level structure of code by the source codes in `getStaTree`.
    
    ### Trained model of BcarCS
-   You can find the trained model of BcarCS in our datasets.
+   You can find the trained model of BcarCS in our datasets published later.
    
    ### Configuration
    
