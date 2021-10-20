@@ -1,7 +1,7 @@
-# BcarCS
-Semantic Representation Learning for Code Search with Boosted Co-Attention Mechanism
+# FcarCS
+Fine-grained Co-Attentive Representation Learning for Semantic Code Search
 
-`BcarCS` is our model proposed in this paper.
+`FcarCS` is our model proposed in this paper.
 
 `DeepCS` `UNIF` `TabCS` are replication packages of baselines.
 
@@ -16,7 +16,7 @@ Semantic Representation Learning for Code Search with Boosted Co-Attention Mecha
 ## Usage
 
    ### DataSets
-  The processed datasets used in out paper will be published later.
+  The processed datasets used in our paper will be published later.
   
   You can also find the original datasets at https://github.com/xing-hu/EMSE-DeepCom
   
@@ -27,8 +27,8 @@ Semantic Representation Learning for Code Search with Boosted Co-Attention Mecha
    ### Get statement-level structure of code
    You can get statement-level structure of code by the source codes in `getStaTree`.
    
-   ### Trained model of BcarCS
-   You can find the trained model of BcarCS in our datasets published later.
+   ### Trained model of FcarCS
+   You can find the trained model of FcarCS in our datasets published later.
    
    ### Configuration
    
