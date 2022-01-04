@@ -93,6 +93,19 @@ class CodeSearcher:
         # chunk_sbt=pickle.load(open(self.path+self.data_params['valid_sbt'], 'rb'))
         logger.debug('desc')
         chunk_descs=pickle.load(open(self.path+self.data_params['valid_desc'], 'rb'))   
+        return chunk_methnames[:500],chunk_apiseqs[:500],chunk_tokens[:500],chunk_descs[:500]   
+    def load_test_data_chunk(self):
+        logger.debug('Loading a chunk of validation data..')
+        logger.debug('methname')
+        chunk_methnames=pickle.load(open(self.path+self.data_params['valid_methname'], 'rb'))
+        logger.debug('apiseq')
+        chunk_apiseqs=pickle.load(open(self.path+self.data_params['valid_apiseq'],'rb'))
+        logger.debug('tokens')
+        chunk_tokens=pickle.load(open(self.path+self.data_params['valid_tokens'], 'rb'))
+        # logger.debug('sbt')
+        # chunk_sbt=pickle.load(open(self.path+self.data_params['valid_sbt'], 'rb'))
+        logger.debug('desc')
+        chunk_descs=pickle.load(open(self.path+self.data_params['valid_desc'], 'rb'))   
         return chunk_methnames[:],chunk_apiseqs[:],chunk_tokens[:],chunk_descs[:]   
     def load_use_data(self):
         logger.info('Loading use data..')
@@ -330,7 +343,7 @@ class CodeSearcher:
 
         #load valid dataset
         if self._eval_sets is None:
-            methnames,apiseqs,tokens,descs=self.load_valid_data_chunk()
+            methnames,apiseqs,tokens,descs=self.load_test_data_chunk()
             self._eval_sets=dict()
             self._eval_sets['methnames']=methnames
             self._eval_sets['apiseqs']=apiseqs
