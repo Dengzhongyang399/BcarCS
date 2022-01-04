@@ -16,19 +16,15 @@ Fine-grained Co-Attentive Representation Learning for Semantic Code Search
 ## Usage
 
    ### DataSets
-  The processed datasets used in our paper will be published later.
+  The processed datasets used in our paper will be found at https://pan.baidu.com/s/1mrVdCw-iz7ZY-wLIoI-bWg  password:75dl
   
   You can also find the original datasets at https://github.com/xing-hu/EMSE-DeepCom
-  
   
   And the `/data` folder need be included by `/keras`. 
   
   
    ### Get statement-level structure of code
    You can get statement-level structure of code by the source codes in `getStaTree`.
-   
-   ### Trained model of FcarCS
-   You can find the trained model of FcarCS in our datasets published later.
    
    ### Configuration
    
@@ -38,6 +34,4 @@ Fine-grained Co-Attentive Representation Learning for Semantic Code Search
    
    ```bash
    python main.py --mode train
-   
-   ```bash
    python main.py --mode eval
